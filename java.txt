@@ -1,0 +1,32 @@
+perfect sq
+duplicate
+
+
+public class Dowhile {
+	
+	public static void main(String[] args) {
+	
+	int num1,num2,sum;
+	char ch;
+	
+	Scanner sc = new Scanner(System.in);
+	do {
+	
+	System.out.println("Enter two numbers:");
+	num1 = sc.nextInt();
+	num2 = sc.nextInt();
+	
+	sum =num1+num2;
+	
+	System.out.println("Add  :  "+sum);
+	
+	System.out.println("press y to continue.");
+	ch = sc.next().charAt(0);
+			
+	
+	
+	
+	}
+	while( ch =='y'  || ch =='Y');
+}
+}
